@@ -151,7 +151,7 @@ const Publications = () => {
                     className="background-media"
                     style={{
                       backgroundImage: publication.imageSrc.endsWith('.gif') 
-                        ? `linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.15)), url(${publication.imageSrc})`
+                        ? `linear-gradient(to bottom, transparent 0%, transparent 50%, rgba(240, 248, 255, 0.5) 70%, rgba(240, 248, 255, 0.9) 85%, rgba(240, 248, 255, 1.0) 100%), url(${publication.imageSrc})`
                         : 'none'
                     }}
                   >
