@@ -58,11 +58,11 @@ const siteData = {
  
   name: {
     en: "Martina Anese",
-    zh: "冯纪元"
+    zh: "Martina Anese"
   },
  
   headerParagraph: {
-    en: "I am a robotics systems engineer passionate about bringing autonomous and biomimetic robots to life.",
+    en: "Presentazione paragrafo 1",
     zh: "我是一名机器人系统工程师,致力于将智能机器人和仿生机器人带入现实。"
   },
 
@@ -94,7 +94,7 @@ const siteData = {
     close: { en: "Close", zh: "关闭" }
   },
 
-  contactEmail: "jy5feng@uwaterloo.ca",
+  contactEmail: "martinaanese05@gmail.com",
 
   education: [
     {
