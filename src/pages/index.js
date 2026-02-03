@@ -16,7 +16,7 @@ import Publications from "../components/Publications"
 const IndexPage = () => (
   <Layout>
     {/* eslint-disable-next-line react/jsx-pascal-case */}
-    <SEO title="Martina Anese Portfolio" />
+    <SEO title="Martina Anese" />
     <Header></Header>
     <About></About>
     <Nvidia></Nvidia>
@@ -30,3 +30,4 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
