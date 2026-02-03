@@ -23,12 +23,13 @@ const IndexPage = () => (
     <Education></Education>
     <Publications></Publications>
     <Work></Work>
-    <Project></Project>
-    //<Skills></Skills>
+    // <Project></Project>
+    <Skills></Skills>
     <Footer></Footer>
   </Layout>
 )
 
 export default IndexPage
+
 
 
