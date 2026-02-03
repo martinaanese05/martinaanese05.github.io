@@ -1,9 +1,9 @@
 module.exports = {
   // Remove pathPrefix for custom domain setup
   siteMetadata: {
-    title: `Hi, I'm MARTINA`,
-    description: `Here is my personal website CHE HO COPAITO`,
-    author: `Steven Feng`,
+    title: `Hi, I'm Martina`,
+    description: `Here is my personal website`,
+    author: `Martina Anese`,
   },
   // Add development-specific configuration
   flags: {
