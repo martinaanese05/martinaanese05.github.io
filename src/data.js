@@ -69,7 +69,7 @@ const siteData = {
   // Navigation labels
   nav: {
     home: { en: "Home", zh: "Home" },
-    work: { en: "WorkDATOGLIERE", zh: "Lavoro" },
+    work: { en: "Work_DiventaProject", zh: "Lavoro" },
     projects: { en: "Projects", zh: "Progetti" },
     contact: { en: "Contact", zh: "Contatta" },
     resume: { en: "Resume", zh: "Curriculum" }
