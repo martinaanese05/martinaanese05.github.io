@@ -24,10 +24,11 @@ const IndexPage = () => (
     <Publications></Publications>
     <Work></Work>
     <Project></Project>
-    <Skills></Skills>
+    //<Skills></Skills>
     <Footer></Footer>
   </Layout>
 )
 
 export default IndexPage
+
 
