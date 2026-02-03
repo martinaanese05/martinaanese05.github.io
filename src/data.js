@@ -62,29 +62,29 @@ const siteData = {
   },
  
   headerParagraph: {
-    en: "Presentazione paragrafo 1",
-    zh: "我是一名机器人系统工程师,致力于将智能机器人和仿生机器人带入现实。"
+    en: "Presentation paragraph 1",
+    zh: "Presentazione paragrafo 1"
   },
 
   // Navigation labels
   nav: {
-    home: { en: "Home", zh: "首页" },
-    work: { en: "Work", zh: "工作" },
-    projects: { en: "Projects", zh: "项目" },
-    contact: { en: "Contact", zh: "联系" },
-    resume: { en: "Resume", zh: "简历" }
+    home: { en: "Home", zh: "Home" },
+    work: { en: "WorkDATOGLIERE", zh: "Lavoro" },
+    projects: { en: "Projects", zh: "Progetti" },
+    contact: { en: "Contact", zh: "Contatta" },
+    resume: { en: "Resume", zh: "Curriculum" }
   },
 
   // Section titles  
   sections: {
-    about: { en: "About", zh: "关于我" },
-    nvidia: { en: "NVIDIA", zh: "英伟达" },
-    publications: { en: "Publications", zh: "论文" },
+    about: { en: "About", zh: "Chi sono" },
+    nvidia: { en: "What am I doing?", zh: "英伟达" },
+    publications: { en: "Progetti", zh: "论文" },
     education: { en: "Education", zh: "学历" },
-    internships: { en: "Internships", zh: "实习" },
-    projects: { en: "Projects", zh: "项目" },
-    skills: { en: "Skills", zh: "技能" },
-    contact: { en: "Contact", zh: "联系" }
+    internships: { en: "InternshipsDA TOGLIERE", zh: "实习" },
+    projects: { en: "DA TOGLIERE LA SEZIONE", zh: "项目" },
+    skills: { en: "Skills", zh: "Skills" },
+    contact: { en: "Contact", zh: "Contatta" }
   },
 
   // Button text translations
