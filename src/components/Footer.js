@@ -36,7 +36,7 @@ const Footer = () => {
           </Fade>
           <Fade bottom>
           <span>
-            Made by <span role="img" aria-label="duck">🦆</span>
+            Inspired by
             <a href="https://www.linkedin.com/in/stevenfeng7/"> Ji Yuan "Steven" Feng</a>
           </span>
           </Fade>
