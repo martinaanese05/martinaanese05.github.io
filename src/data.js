@@ -99,11 +99,11 @@ const siteData = {
   education: [
     {
       title: {
-        en: "University of Waterloo",
+        en: "ITS A. Volta",
         zh: "滑铁卢大学"
       },
       para: {
-        en: "Bachelor of Applied Science in Mechatronics Engineering with AI Option, with Distinction",
+        en: "Highschool card description",
         zh: "机械电子工程应用科学学士学位, 人工智能精修, 优秀毕业生"
       },
       imageSrc: WaterlooLogo,
@@ -126,7 +126,7 @@ const siteData = {
     },
     {
       title: {
-        en: "Active Robotics Interaction Lab",
+        en: "University of Trieste",
         zh: "主动机器人交互 (Active Robotics Interaction) 实验室"
       },
       para: {
@@ -153,7 +153,7 @@ const siteData = {
     },
     {
       title: {
-        en: "Stanford University",
+        en: "Da togliere",
         zh: "斯坦福大学"
       },
       para: {
@@ -422,26 +422,26 @@ const siteData = {
 
 // About Section --------------
 aboutParaOne: {
-  en: "I am a robotics engineer with expertise in simulation development, narrowing the sim-to-real gap by creation of high-fidelity virtual environments to accelerate robotic testing and deployment. I am particularly passionate about reinforcement learning and imitation learning, exploring control strategies that enable safer, more human-like interactions.",
+  en: "Paragraph1",
           zh: "我是一名机器人工程师, 专精于仿真开发, 通过创建高保真虚拟环境缩小仿真到现实的差距, 加速机器人测试和部署。我热衷于强化学习和模仿学习, 探索能够实现更安全, 更人性化的交互控制策略。"
 },
 aboutParaTwo: {
-  en: "I earned my Bachelor's degree in Mechatronics Engineering from the University of Waterloo. I also conducted human-robot interaction research at the Active Robotics Interaction Lab under Dr. Yue Hu, with a publication on IEEE Robotics and Automation Letters.",
+  en: "Paragraph2",
           zh: "我在滑铁卢大学获得了机电工程学士学位。我还在Hu Yue教授指导下的Active Interactive Robotics Lab进行了人机交互研究, 并在IEEE机器人与自动化快报 (IEEE Robotics and Automation Letters) 上发表了论文。"
 },
 aboutParaThree: {
-  en: "When I'm not building robots, you can find me hiking, playing my clarinet and accordion, or exploring new cuisines around the city.",
+  en: "Paragraph3",
           zh: "在工作之余, 我喜欢去爬山, 吹黑管, 拉手风琴, 和探索新的事物。"
 },
 
 nvidiaTime: {
-  en: "2023 to Present",
+  en: "non mi serve la data",
   zh: "2023年至今"
 },
 
 nvidiaExperience: [
   {
-    en: "At NVIDIA, I worked on both Isaac Lab and Isaac Sim, focusing on distinct facets of robotic simulation. In Isaac Lab, I developed scalable humanoid and legged robot models and designed reinforcement learning-based locomotion policies. In Isaac Sim, I concentrated on high-fidelity simulation, building realistic digital twins, synthetic sensor models, and inference pipelines for deploying trained policies through ROS and Isaac Sim. I also presented several talks at NVIDIA GTC on robot composition and software-in-the-loop simulation pipelines.",
+    en: "What am I doing now description",
     zh: "在英伟达,我负责Isaac Lab和Isaac Sim的开发研究工作。在Isaac Lab中,我开发了可应用的人形和足式机器人模型,并设计了基于强化学习的运动策略。在Isaac Sim中,我专注于高保真仿真,构建逼真的数字孪生、合成传感器模型,以及通过ROS和Isaac Sim部署训练策略的推理管道。我还在NVIDIA GTC和SIGGRAPH上就建立机器人数字孪生和软件在环(SIL)仿真管道发表了多次演讲。"
   }
 ],
