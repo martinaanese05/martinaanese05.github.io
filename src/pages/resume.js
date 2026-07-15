@@ -13,7 +13,8 @@ const ResumeContent = () => {
   // Resume PDF URLs - can be configured for different languages
   const resumeUrls = {
     en: "https://drive.google.com/file/d/1YcRR5S2mc6i87L0CT5syPtRbTMZFj5ZZ/preview",
-    it: "https://drive.google.com/file/d/1rsLFqSaQ6CTMA3klFRO8jQnFMhpmRoJB/preview" // Same for now, can be updated later.   https://drive.google.com/file/d/1fPQOUJndzVjnpf468iD_SXImoHbwJZ6j/preview
+    it: "https://drive.google.com/file/d/1rsLFqSaQ6CTMA3klFRO8jQnFMhpmRoJB/preview", // Same for now, can be updated later.   https://drive.google.com/file/d/1fPQOUJndzVjnpf468iD_SXImoHbwJZ6j/preview
+    de: "https://drive.google.com/file/d/1YcRR5S2mc6i87L0CT5syPtRbTMZFj5ZZ/preview" // No German resume yet, falls back to the English one
   };
   
   const resumeUrl = resumeUrls[language] || resumeUrls.en;
@@ -51,5 +52,3 @@ export default function Resume() {
     </div>
   )
 }
-
-

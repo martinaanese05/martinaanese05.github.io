@@ -2,6 +2,9 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const LanguageContext = createContext();
 
+export const SUPPORTED_LANGUAGES = ['en', 'it', 'de'];
+const STORAGE_KEY = 'preferredLanguage';
+
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (!context) {
@@ -11,26 +14,49 @@ export const useLanguage = () => {
 };
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('en'); // Default to English
+  const [language, setLanguageState] = useState('en'); // Default to English
 
-  // Check URL parameters on mount and set language accordingly
+  // On mount: figure out which language to use.
+  // Priority: URL ?lang= param (explicit link/share) > saved preference (localStorage) > default 'en'
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const urlParams = new URLSearchParams(window.location.search);
       const langParam = urlParams.get('lang');
-      
-      if (langParam === 'it' || langParam === 'en') {
-        setLanguage(langParam);
+
+      if (SUPPORTED_LANGUAGES.includes(langParam)) {
+        setLanguageState(langParam);
+        try {
+          window.localStorage.setItem(STORAGE_KEY, langParam);
+        } catch (error) {
+          console.warn('Could not save language preference:', error);
+        }
+        return;
+      }
+
+      try {
+        const savedLanguage = window.localStorage.getItem(STORAGE_KEY);
+        if (SUPPORTED_LANGUAGES.includes(savedLanguage)) {
+          setLanguageState(savedLanguage);
+        }
+      } catch (error) {
+        console.warn('Could not read saved language preference:', error);
       }
     }
   }, []);
 
-  // Update URL when language changes (optional - keeps URL in sync)
+  // Update URL (so links can be shared with the language baked in) and persist to localStorage
+  // (so the choice survives full page navigations, e.g. clicking into a project page)
   useEffect(() => {
     if (typeof window !== 'undefined') {
+      try {
+        window.localStorage.setItem(STORAGE_KEY, language);
+      } catch (error) {
+        console.warn('Could not save language preference:', error);
+      }
+
       const urlParams = new URLSearchParams(window.location.search);
       const currentLangParam = urlParams.get('lang');
-      
+
       if (currentLangParam !== language) {
         urlParams.set('lang', language);
         const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
@@ -39,14 +65,26 @@ export const LanguageProvider = ({ children }) => {
     }
   }, [language]);
 
-  const toggleLanguage = () => {
-    setLanguage(prev => prev === 'en' ? 'it' : 'en');
+  const setLanguage = (newLanguage) => {
+    if (SUPPORTED_LANGUAGES.includes(newLanguage)) {
+      setLanguageState(newLanguage);
+    }
   };
 
-  // Utility function to generate URLs with language parameter
+  // Cycles en -> it -> de -> en, kept for any code that still wants a simple toggle
+  const toggleLanguage = () => {
+    setLanguageState(prev => {
+      const currentIndex = SUPPORTED_LANGUAGES.indexOf(prev);
+      const nextIndex = (currentIndex + 1) % SUPPORTED_LANGUAGES.length;
+      return SUPPORTED_LANGUAGES[nextIndex];
+    });
+  };
+
+  // Utility function to generate URLs with language parameter, so navigating
+  // (even via a plain full-page link) keeps the chosen language.
   const getLanguageUrl = (targetLanguage, pathname = '') => {
     if (typeof window === 'undefined') return '';
-    
+
     const urlParams = new URLSearchParams();
     urlParams.set('lang', targetLanguage);
     const basePath = pathname || window.location.pathname;
@@ -60,7 +98,8 @@ export const LanguageProvider = ({ children }) => {
       toggleLanguage,
       getLanguageUrl,
       isEnglish: language === 'en',
-      isItalian: language === 'it'
+      isItalian: language === 'it',
+      isGerman: language === 'de'
     }}>
       {children}
     </LanguageContext.Provider>

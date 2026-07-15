@@ -160,7 +160,7 @@ const publicationsData = [
     <div className="section" id="publications">
       <div className="container">
         <Fade bottom cascade distance="20px">
-          <h1>{getText({ en: "Projects", it: "Progetti" }, language)}</h1>
+          <h1>{getText({ en: "Projects", it: "Progetti", de: "Projekte" }, language)}</h1>
         </Fade>
         <div className="publications-wrapper">
           <div className="grid">
@@ -279,7 +279,7 @@ const publicationsData = [
                       type="button"
                       className="btn"
                     >
-                      {getText({ en: "View Project", it: "Visualizza progetto" }, language)}
+                      {getText({ en: "View Project", it: "Visualizza progetto", de: "Projekt ansehen" }, language)}
                     </button>
                   </div>
                 </div>

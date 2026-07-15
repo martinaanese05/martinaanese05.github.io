@@ -69,14 +69,14 @@ const Header = () => {
             <div className="content-wrapper">
               <Fade bottom>
                 <h2>
-                  {getText({ en: "Hi, I am", it: "Ciao, sono" }, language)} {getText(data.name, language)}{" "}
+                  {getText({ en: "Hi, I am", it: "Ciao, sono", de: "Hallo, ich bin" }, language)} {getText(data.name, language)}{" "}
                 </h2>
               </Fade>
 
               <Fade bottom>
                 <div className="heading-wrapper">
                   <h1>
-                    {getText({ en: "I am a", it: "Sono una" }, language)}{" "}
+                    {getText({ en: "I am a", it: "Sono una", de: "Ich bin" }, language)}{" "}
                     <span style={{ color: "#0BDB00", fontWeight: "bold" }}>
                       <Typewriter
                         loop
@@ -87,6 +87,8 @@ const Header = () => {
                         delaySpeed={1200}
                         words={language === 'it' ? 
                           ["Appassionata di robotica", "Studentessa di ingengeria", "Pianista"] :
+                          language === 'de' ?
+                          ["Robotik-Enthusiastin", "Ingenieurstudentin", "Pianistin"] :
                           ["Robotics enthusiast", "Engineering student", "Pianist"]
                         }
                       />
@@ -106,7 +108,7 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {getText({ en: "CONNECT WITH ME!", it: "METTITI IN CONTATTO!" }, language)}
+                  {getText({ en: "CONNECT WITH ME!", it: "METTITI IN CONTATTO!", de: "KONTAKTIERE MICH!" }, language)}
                 </a>
               </Fade>
             </div>
@@ -131,14 +133,14 @@ const Header = () => {
         >
           <Fade bottom>
             <h2>
-              {getText({ en: "Hi, I am", it: "Ciao, sono" }, language)} {getText(data.name, language)}{" "}
+              {getText({ en: "Hi, I am", it: "Ciao, sono", de: "Hallo, ich bin" }, language)} {getText(data.name, language)}{" "}
             </h2>
           </Fade>
 
           <Fade bottom>
             <div className="heading-wrapper">
               <h1>
-                {getText({ en: "I am a", it: "Sono una" }, language)}{" "}
+                {getText({ en: "I am a", it: "Sono una", de: "Ich bin" }, language)}{" "}
                 <span style={{ color: "#0BDB00", fontWeight: "bold" }}>
                   <Typewriter
                     loop
@@ -149,6 +151,8 @@ const Header = () => {
                     delaySpeed={1200}
                     words={language === 'it' ? 
                       ["Appassionata di robotica", "Studentessa di ingegneria", "Pianista"] :
+                      language === 'de' ?
+                      ["Robotik-Enthusiastin", "Ingenieurstudentin", "Pianistin"] :
                       ["Robotics enthusiast", "Engineering student", "Pianist"]
                     }
                   />
@@ -168,7 +172,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {getText({ en: "CONNECT WITH ME!", it: "METTITI IN CONTATTO!" }, language)}
+              {getText({ en: "CONNECT WITH ME!", it: "METTITI IN CONTATTO!", de: "KONTAKTIERE MICH!" }, language)}
             </a>
           </Fade>
         </div>
