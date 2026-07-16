@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "./animations/Fade"
 import { useLanguage } from "../contexts/LanguageContext"
 import data, { getText } from "../data"
-import selfImage from "../images/SelfPhoto.jpg"
+import selfImage from "../images/SelfPhoto.png"
 import "../styles/about.scss"
 
 const About = () => {
