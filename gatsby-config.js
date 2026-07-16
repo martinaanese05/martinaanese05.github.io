@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/aaa",
+  // No pathPrefix needed - site is served from the domain root (martinaanese05.github.io)
   siteMetadata: {
     title: `Robotics & Engineering`,
     description: `Here is my personal website`,
