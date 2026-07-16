@@ -37,10 +37,25 @@ const ProjectContent = () => {
       step3: "3. Azione Fisica",
       step3Text: "Una volta superata la soglia, l'Arduino comanda al servomotore SG90 di ruotare, premendo fisicamente la barra spaziatrice per far saltare il dinosauro.",
       back: "← Torna ai Progetti",
+    },
+    de: {
+      title: "Dino-Game-Spieler",
+      overview: "Überblick",
+      overviewText: "Dies ist ein einfaches Projekt, das ich im Juni 2022 gebaut habe, um automatisch das Google-Chrome-Dino-Spiel zu spielen. Durch die Verwendung eines Lichtsensors, um den Bildschirm zu erfassen, und eines Servomotors, um die Taste zu drücken, umgeht das System die Notwendigkeit einer Softwareintegration mit dem Browser.",
+      components: "Hauptkomponenten",
+      logic: "Logik und Code",
+      logicText: "Das System arbeitet, indem es die Lichtwerte auf dem Monitor in Echtzeit über eine physische Schnittstelle überwacht:",
+      step1: "1. Lichtüberwachung",
+      step1Text: "Der Arduino liest kontinuierlich den analogen Wert des GL5528-Fotowiderstands, der am Bildschirm befestigt ist. Er ermittelt eine Basishelligkeit für den weißen Hintergrund.",
+      step2: "2. Hinderniserkennung",
+      step2Text: "Wenn ein Kaktus unter dem Sensor vorbeizieht, sinkt der Lichtwert deutlich. Der Code erkennt diese Änderung sofort.",
+      step3: "3. Physische Aktion",
+      step3Text: "Sobald der Schwellenwert überschritten wird, befiehlt der Arduino dem SG90-Servomotor zu drehen und drückt dabei physisch die Leertaste, damit der Dinosaurier springt.",
+      back: "← Zurück zu den Projekten",
     }
   };
 
-  const current = language === "it" ? content.it : content.en;
+  const current = language === "it" ? content.it : language === "de" ? content.de : content.en;
 
   return (
     <div style={{ padding: "120px 20px", maxWidth: "800px", margin: "0 auto", textAlign: "left", lineHeight: "1.6" }}>

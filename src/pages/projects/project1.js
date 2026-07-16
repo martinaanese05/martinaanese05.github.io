@@ -44,10 +44,28 @@ const ProjectContent = () => {
       execution: "3. Esecuzione",
       executionText: "L'Arduino confronta le due variabili: Direzione = max(d_sinistra, d_destra) e poi svolta nella direzione con la distanza maggiore disponibile.",
       back: "← Torna ai Progetti",
+    },
+    de: {
+      title: "Hindernisvermeidendes Auto",
+      overview: "Überblick",
+      overviewText: "Dieses Projekt war mein allererster Einstieg in die Welt der Robotik, entwickelt im April 2022. Das Ziel war es, ein Fahrzeug zu bauen, das Kollisionen vermeidet und den effizientesten Weg wählen kann. Anstelle eines fest montierten Sensors habe ich die Ultraschall-Augen auf einem rotierenden Servo montiert, um dem Roboter ein Sichtfeld von 180° zu geben.",
+      components: "Hauptkomponenten",
+      logic: "Logik und Code",
+      logicText: "Um korrekt zu funktionieren, verwendet dieser Roboter eine vergleichende Logikschleife:",
+      detection: "1. Erkennung",
+      detectionText: "Der Roboter fährt vorwärts, bis der Ultraschallsensor ein Hindernis bei d < 25 cm wahrnimmt.",
+      analysis: "2. Analyse",
+      analysisText: "Sobald ein Hindernis erkannt wird, stoppt der Roboter und führt eine Umschausequenz durch:",
+      analysisA: "a. Fährt für 100ms zurück, um Abstand zu schaffen",
+      analysisB: "b. Dreht den Servo auf 0° (rechts) und misst die Entfernung",
+      analysisC: "c. Dreht den Servo auf 180° (links) und misst die Entfernung",
+      execution: "3. Ausführung",
+      executionText: "Der Arduino vergleicht die beiden Variablen: Richtung = max(d_links, d_rechts) und wendet sich dann in die Richtung mit der größten verfügbaren Entfernung.",
+      back: "← Zurück zu den Projekten",
     }
   };
 
-  const current = language === "it" ? content.it : content.en;
+  const current = language === "it" ? content.it : language === "de" ? content.de : content.en;
 
   return (
     <div style={{ padding: "120px 20px", maxWidth: "800px", margin: "0 auto", textAlign: "left", lineHeight: "1.6" }}>
