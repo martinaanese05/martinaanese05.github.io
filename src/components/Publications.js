@@ -10,6 +10,7 @@ import Project1_header from "../images/publications/Project1_Photo1.png"
 import Project2_header from "../images/publications/Project2_Photo1.png"
 import Project3_header from "../images/publications/Project3_Photo1.png"
 import Project4_header from "../images/publications/Project4_Photo3.jpg"
+import Project5_header from "../images/publications/Project5_Photo1.jpg"
 import carterOutdoorVideo from "../images/nvidia/Carter Outdoor.mp4"
 import clawVideo from "../images/nvidia/claw.mp4"
 
@@ -104,8 +105,16 @@ const Publications = () => {
 const { getLanguageUrl } = useLanguage();
 
 const publicationsData = [
-  {
+    {
     id: 0,
+    title: "Robot barman",
+    subtitle: "",
+    imageSrc: Project5_header,
+    projectLink: getLanguageUrl(language, "/projects/project5"),
+    type: "PERSONAL PROJECT"
+  },
+  {
+    id: 1,
     title: "Quadruped robot V1",
     subtitle: "",
     imageSrc: Project4_header,
@@ -113,7 +122,7 @@ const publicationsData = [
     type: "PERSONAL PROJECT"
   },
   {
-    id: 1,
+    id: 2,
     title: "Robot arm V1",
     subtitle: "",
     imageSrc: Project3_header,
@@ -121,7 +130,7 @@ const publicationsData = [
     type: "PERSONAL PROJECT"
   },
   {
-    id: 2,
+    id: 3,
     title: "Dino player",
     subtitle: "",
     imageSrc: Project2_header,
@@ -129,7 +138,7 @@ const publicationsData = [
     type: "PERSONAL PROJECT"
   },
   {
-    id: 3,
+    id: 4,
     title: "Obstacle avoiding car",
     subtitle: "",
     imageSrc: Project1_header,
