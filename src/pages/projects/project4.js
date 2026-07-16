@@ -60,10 +60,34 @@ const ProjectContent = () => {
       captionP2: "Dettaglio della struttura stampata in 3D dei giunti.",
       captionVBottom: "Versione 1.2 in cammino.",
       back: "← Torna ai Progetti",
+    },
+    de: {
+      title: "Vierbeiner-Roboter V1",
+      overview: "Überblick",
+      overviewText: "Der Vierbeiner-Roboter V1 stellt meinen ersten tiefen Einstieg in die komplexe Robotik dar und wurde im September 2023 begonnen. Was als natürliche Weiterentwicklung einfacherer Projekte begann, entwickelte sich zu einem autonomen, vierbeinigen Roboter mit 12 Freiheitsgraden. Diese Version konzentriert sich auf den Übergang von einem Konzept zu einem funktionsfähigen, batteriebetriebenen Roboter, der über eine eigene inverse Kinematik laufen kann.",
+      overviewText2: "Die V2 befindet sich derzeit in Entwicklung und zielt darauf ab, ROS-2-Simulationen, eine Controller-Schnittstelle und Computer Vision zu integrieren.",
+      design: "Design des Beins und des Körpers",
+      designText: "Das in Fusion 360 entworfene Chassis musste strukturelle Steifigkeit und Gewichtseffizienz in Einklang bringen. Ich habe vier verschiedene Bein-Prototypen entwickelt, bevor ich das endgültige Design erreichte: Die frühen Versionen waren entweder zu wuchtig und fügten unnötige Trägheit hinzu, oder zu fragil, sodass die Beine unter dem Gewicht der 12 Servos nachgaben. Die endgültige Iteration verwendet eine schlanke, verstärkte Geometrie, die es den Servos ermöglicht, in ihrem optimalen Drehmomentbereich zu arbeiten.",
+      designText2: "In der Anfangsphase der Entwicklung verwendete ich eine Holzplattform, um die Komponenten unterzubringen, sodass ich mich ganz auf die Beinkinematik konzentrieren konnte. Sobald die Bewegung perfektioniert war, entwarf und druckte ich in 3D einen eigenen Körper, der alle elektronischen Teile organisiert und Befestigungspunkte für eine Kamera und ein Touch-Display für die V2 enthält.",
+      components: "Hauptkomponenten",
+      logic: "Kinematik und Code",
+      logicText: "Die Bewegung des Roboters wird durch komplexe mathematische Berechnungen gesteuert, die vom Raspberry Pi 5 durchgeführt werden:",
+      step1: "1. Inverse Kinematik",
+      step1Text: "Mithilfe von Trigonometrie und Geometrie hergeleitete Gleichungen ermöglichen es, den Fuß zu bestimmten (x, y, z)-Koordinaten zu steuern.",
+      step2: "2. Echtzeitberechnung",
+      step2Text: "Der Code berechnet in Echtzeit die erforderlichen Winkel für die drei Motoren jedes Beins, um die gewünschte Position zu erreichen.",
+      step3: "3. Mögliche Bewegungen",
+      step3Text: "Durch die inverse Kinematik ist der Roboter in der Lage, auf Befehl vorwärts, rückwärts und seitwärts zu laufen.",
+      captionV1: "Version 1.1 beim Laufen.",
+      captionV2: "Vorstellung der Version V1.1 im Asperastra Innovation Lab.",
+      captionP1: "Draufsicht auf die interne elektronische Anordnung der Version V1.2.",
+      captionP2: "Detail der 3D-gedruckten Gelenkstruktur.",
+      captionVBottom: "Version 1.2 beim Laufen.",
+      back: "← Zurück zu den Projekten",
     }
   };
 
-  const current = language === "it" ? content.it : content.en;
+  const current = language === "it" ? content.it : language === "de" ? content.de : content.en;
   const captionStyle = { fontSize: "0.9rem", color: "#666", marginTop: "10px", fontStyle: "italic" };
   
   const VideoElement = ({ src }) => (
