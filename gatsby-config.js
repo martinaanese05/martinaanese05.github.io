@@ -1,5 +1,5 @@
 module.exports = {
-  // Remove pathPrefix for custom domain setup
+  pathPrefix: "/aaa",
   siteMetadata: {
     title: `Robotics & Engineering`,
     description: `Here is my personal website`,
