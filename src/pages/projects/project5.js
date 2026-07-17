@@ -15,6 +15,7 @@ const ProjectContent = () => {
   const content = {
     en: {
       title: "Robot Barman",
+      github: "Check out the full project on GitHub:",
       overview: "Overview",
       overviewText: "I built this Robot Barman because I had been learning how to program the robot via Python instead of its original software, which didn't allow to add external elements, when I asked my friends what they would most want to see it do, a cocktail making robot won by popular demand.",
       overviewText2: "The interface lives in the HTML file, while the logic and control is implemented in Python. The two communicate through a small local web server: the browser sends orders and reads the live state, and Python drives the arm.",
@@ -33,10 +34,12 @@ const ProjectContent = () => {
       captionCustom: "Building a custom drink",
       captionCustomer: "The customer screen during preparation",
       captionOperator: "The operator console: live terminal and controls",
+      note: "Note: in order to test the new AI models and how they could be implemented into the development of my projects, parts of the project 'Robot Barman' such as the HTML GUI are made with Claude Code.",
       back: "← Back to Projects",
     },
     it: {
       title: "Robot Barman",
+      github: "Guarda il progetto completo su GitHub:",
       overview: "Panoramica",
       overviewText: "Ho realizzato questo Robot Barman perché stavo imparando a programmare il robot in Python invece del suo software originale, che non permetteva di aggiungere elementi esterni; quando ho chiesto ai miei amici cosa avrebbero voluto vedergli fare, un robot che prepara cocktail ha vinto per richiesta popolare.",
       overviewText2: "L'interfaccia si trova nel file HTML, mentre la logica e il controllo sono implementati in Python. I due comunicano tramite un piccolo server web locale: il browser invia gli ordini e legge lo stato in tempo reale, e Python muove il braccio.",
@@ -55,10 +58,12 @@ const ProjectContent = () => {
       captionCustom: "Creazione di un drink personalizzato",
       captionCustomer: "La schermata cliente durante la preparazione",
       captionOperator: "La console operatore: terminale live e controlli",
+      note: "Nota: per testare i nuovi modelli di IA e capire come potrebbero essere integrati nello sviluppo dei miei progetti, alcune parti del progetto 'Robot Barman', come la GUI in HTML, sono state realizzate con Claude Code.",
       back: "← Torna ai Progetti",
     },
     de: {
       title: "Robot Barman",
+      github: "Sieh dir das vollständige Projekt auf GitHub an:",
       overview: "Überblick",
       overviewText: "Ich habe diesen Robot Barman gebaut, weil ich gelernt hatte, den Roboter mit Python statt mit seiner ursprünglichen Software zu programmieren, die das Hinzufügen externer Elemente nicht erlaubte. Als ich meine Freunde fragte, was sie ihn am liebsten tun sehen würden, gewann ein Cocktail-mixender Roboter auf allgemeinen Wunsch.",
       overviewText2: "Die Oberfläche befindet sich in der HTML-Datei, während die Logik und die Steuerung in Python umgesetzt sind. Die beiden kommunizieren über einen kleinen lokalen Webserver: der Browser sendet Bestellungen und liest den Live-Status, und Python steuert den Arm.",
@@ -77,12 +82,14 @@ const ProjectContent = () => {
       captionCustom: "Zusammenstellen eines eigenen Getränks",
       captionCustomer: "Der Kundenbildschirm während der Zubereitung",
       captionOperator: "Die Bedienkonsole: Live-Terminal und Steuerung",
+      note: "Hinweis: Um die neuen KI-Modelle zu testen und zu sehen, wie sie in die Entwicklung meiner Projekte integriert werden könnten, wurden Teile des Projekts 'Robot Barman', wie die HTML-GUI, mit Claude Code erstellt.",
       back: "← Zurück zu den Projekten",
     }
   };
 
   const current = language === "it" ? content.it : language === "de" ? content.de : content.en;
   const captionStyle = { fontSize: "0.9rem", color: "#666", marginTop: "10px", fontStyle: "italic" };
+  const repoUrl = "https://github.com/martinaanese05/Robot-barman";
 
   const VideoElement = ({ src }) => (
     <video
@@ -106,6 +113,14 @@ const ProjectContent = () => {
         <VideoElement src={videoDrink} />
         <p style={captionStyle}>{current.captionDrink}</p>
       </div>
+
+      {/* GitHub link (right before overview) */}
+      <p style={{ marginBottom: "40px" }}>
+        {current.github}{" "}
+        <a href={repoUrl} target="_blank" rel="noopener noreferrer" style={{ color: "#8F00FF", fontWeight: "bold", textDecoration: "none" }}>
+          {repoUrl}
+        </a>
+      </p>
 
       {/* Why + elements */}
       <section style={{ marginBottom: "60px" }}>
@@ -157,7 +172,12 @@ const ProjectContent = () => {
         </div>
       </div>
 
-      <div style={{ marginTop: "60px", borderTop: "1px solid #eee", paddingTop: "20px" }}>
+      {/* Disclosure note */}
+      <p style={{ fontSize: "0.85rem", color: "#888", fontStyle: "italic", marginTop: "60px" }}>
+        {current.note}
+      </p>
+
+      <div style={{ marginTop: "40px", borderTop: "1px solid #eee", paddingTop: "20px" }}>
         <a href="/#publications" style={{ color: "#8F00FF", textDecoration: "none", fontWeight: "bold" }}>
           {current.back}
         </a>
