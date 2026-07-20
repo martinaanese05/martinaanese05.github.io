@@ -16,6 +16,7 @@ const ProjectContent = () => {
     en: {
       title: "Robot Barman",
       github: "Check out the full project on GitHub:",
+      manualNote: "I've also written a manual for using the Dobot and building projects like this one. Check it out at:",
       overview: "Overview",
       overviewText: "I built this Robot Barman because I had been learning how to program the robot via Python instead of its original software, which didn't allow to add external elements, when I asked my friends what they would most want to see it do, a cocktail making robot won by popular demand.",
       overviewText2: "The interface lives in the HTML file, while the logic and control is implemented in Python. The two communicate through a small local web server: the browser sends orders and reads the live state, and Python drives the arm.",
@@ -40,6 +41,7 @@ const ProjectContent = () => {
     it: {
       title: "Robot Barman",
       github: "Guarda il progetto completo su GitHub:",
+      manualNote: "Ho anche scritto un manuale per usare il Dobot e realizzare progetti come questo. Dai un'occhiata qui:",
       overview: "Panoramica",
       overviewText: "Ho realizzato questo Robot Barman perché stavo imparando a programmare il robot in Python invece del suo software originale, che non permetteva di aggiungere elementi esterni; quando ho chiesto ai miei amici cosa avrebbero voluto vedergli fare, un robot che prepara cocktail ha vinto per richiesta popolare.",
       overviewText2: "L'interfaccia si trova nel file HTML, mentre la logica e il controllo sono implementati in Python. I due comunicano tramite un piccolo server web locale: il browser invia gli ordini e legge lo stato in tempo reale, e Python muove il braccio.",
@@ -64,6 +66,7 @@ const ProjectContent = () => {
     de: {
       title: "Robot Barman",
       github: "Sieh dir das vollständige Projekt auf GitHub an:",
+      manualNote: "Ich habe außerdem ein Handbuch geschrieben, um den Dobot zu benutzen und Projekte wie dieses zu bauen. Schau es dir hier an:",
       overview: "Überblick",
       overviewText: "Ich habe diesen Robot Barman gebaut, weil ich gelernt hatte, den Roboter mit Python statt mit seiner ursprünglichen Software zu programmieren, die das Hinzufügen externer Elemente nicht erlaubte. Als ich meine Freunde fragte, was sie ihn am liebsten tun sehen würden, gewann ein Cocktail-mixender Roboter auf allgemeinen Wunsch.",
       overviewText2: "Die Oberfläche befindet sich in der HTML-Datei, während die Logik und die Steuerung in Python umgesetzt sind. Die beiden kommunizieren über einen kleinen lokalen Webserver: der Browser sendet Bestellungen und liest den Live-Status, und Python steuert den Arm.",
@@ -90,6 +93,7 @@ const ProjectContent = () => {
   const current = language === "it" ? content.it : language === "de" ? content.de : content.en;
   const captionStyle = { fontSize: "0.9rem", color: "#666", marginTop: "10px", fontStyle: "italic" };
   const repoUrl = "https://github.com/martinaanese05/Robot-barman";
+  const manualUrl = "https://github.com/martinaanese05/Dobot-CR5AS-Manual.git";
 
   const VideoElement = ({ src }) => (
     <video
@@ -119,6 +123,14 @@ const ProjectContent = () => {
         {current.github}{" "}
         <a href={repoUrl} target="_blank" rel="noopener noreferrer" style={{ color: "#8F00FF", fontWeight: "bold", textDecoration: "none" }}>
           {repoUrl}
+        </a>
+      </p>
+
+      {/* Manual link */}
+      <p style={{ marginBottom: "40px" }}>
+        {current.manualNote}{" "}
+        <a href={manualUrl} target="_blank" rel="noopener noreferrer" style={{ color: "#8F00FF", fontWeight: "bold", textDecoration: "none" }}>
+          {manualUrl}
         </a>
       </p>
 
