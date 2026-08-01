@@ -203,5 +203,5 @@ const PaginaRobotBarman = () => (
     <ProjectContent />
   </Layout>
 )
-
+ 
 export default PaginaRobotBarman
