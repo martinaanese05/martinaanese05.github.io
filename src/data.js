@@ -426,9 +426,9 @@ const siteData = {
 
 // About Section --------------
 aboutParaOne: {
-  en: "I am an Electronic & IoT Engineering student at the University of Trieste, currently in my second year.",
-  it: "Sono una studentessa di Ingegneria Elettronica & IoT presso l'Università degli Studi di Trieste, attualmente al mio secondo anno.",
-  de: "Ich studiere Elektronik- und IoT-Technik an der Universität Triest, derzeit im zweiten Studienjahr."
+  en: "I am an Electronic & IoT Engineering student at the University of Trieste, currently in my third year.",
+  it: "Sono una studentessa di Ingegneria Elettronica & IoT presso l'Università degli Studi di Trieste, attualmente al mio terzo anno.",
+  de: "Ich studiere Elektronik- und IoT-Technik an der Universität Triest, derzeit im dritte Studienjahr."
 },
 aboutParaTwo: {
   en: "Beyond my studies, I manage the department of Robotics at a local association called Asperastra, where I take care of the different robotics projects and teach Arduino to the members. I also co-founded a university robotics club to build a space for peers to develop custom robots.",
@@ -452,9 +452,9 @@ nvidiaTime: {
 
 nvidiaExperience: [
   {
-    en: "I am contributing to the creation of a new University technology club, Nexus Robotics: we build custom robots and participate in robotics competitions. I am also teaching the course \"Hello World, Arduino\" at the local Fablab, Asperastra. Currently, I am a second-year Electronic Engineering & IoT Bachelor student at the University of Trieste and I am learning ROS2 to implement it in my projects, such as the Dobot arm and the quadruped robot I designed.",
-    it: "Sto contribuendo alla creazione di un nuovo club tecnologico universitario, Nexus Robotics: costruiamo robot personalizzati e partecipiamo a competizioni di robotica. Insegno anche il corso \"Hello World, Arduino\" al Fablab locale Asperastra. Attualmente sono una studentessa al secondo anno del corso di Laurea Triennale in Ingegneria Elettronica & IoT all'Università di Trieste e sto imparando ROS2 per implementarlo nei miei progetti, come il braccio Dobot e il robot quadrupede che ho progettato.",
-    de: "Ich trage zur Gründung eines neuen Technologie-Clubs an der Universität bei, Nexus Robotics: Wir bauen eigene Roboter und nehmen an Robotik-Wettbewerben teil. Außerdem unterrichte ich den Kurs \"Hello World, Arduino\" im lokalen Fablab Asperastra. Aktuell bin ich Bachelorstudentin im zweiten Jahr für Elektronik- und IoT-Technik an der Universität Triest und lerne ROS2, um es in meinen Projekten einzusetzen, wie zum Beispiel beim Dobot-Arm und dem von mir entworfenen vierbeinigen Roboter."
+    en: "I am contributing to the creation of a new University technology club, Nexus Robotics: we build custom robots and participate in robotics competitions. I am also teaching the course \"Hello World, Arduino\" at the local Fablab, Asperastra. Currently, I am a third-year Electronic Engineering & IoT Bachelor student at the University of Trieste and I am learning ROS2 to implement it in my projects, such as the Dobot arm and the quadruped robot I designed.",
+    it: "Sto contribuendo alla creazione di un nuovo club tecnologico universitario, Nexus Robotics: costruiamo robot personalizzati e partecipiamo a competizioni di robotica. Insegno anche il corso \"Hello World, Arduino\" al Fablab locale Asperastra. Attualmente sono una studentessa al terzo anno del corso di Laurea Triennale in Ingegneria Elettronica & IoT all'Università di Trieste e sto imparando ROS2 per implementarlo nei miei progetti, come il braccio Dobot e il robot quadrupede che ho progettato.",
+    de: "Ich trage zur Gründung eines neuen Technologie-Clubs an der Universität bei, Nexus Robotics: Wir bauen eigene Roboter und nehmen an Robotik-Wettbewerben teil. Außerdem unterrichte ich den Kurs \"Hello World, Arduino\" im lokalen Fablab Asperastra. Aktuell bin ich Bachelorstudentin im dritte Jahr für Elektronik- und IoT-Technik an der Universität Triest und lerne ROS2, um es in meinen Projekten einzusetzen, wie zum Beispiel beim Dobot-Arm und dem von mir entworfenen vierbeinigen Roboter."
   }
 ],
 
@@ -493,14 +493,14 @@ nvidiaCarouselItems: [
     media: "h1TrainVideo",
     type: 'image',
     title: {
-      en: "I am currently a second-year Electronic Engineering & IoT Bachelor student at the University of Trieste",
-      it: "Sono attualmente una studentessa al secondo anno di Ingegneria Elettronica & IoT all'Università di Trieste",
-      de: "Ich bin derzeit Bachelorstudentin im zweiten Jahr für Elektronik- und IoT-Technik an der Universität Triest"
+      en: "I am currently a third-year Electronic Engineering & IoT Bachelor student at the University of Trieste",
+      it: "Sono attualmente una studentessa al terzo anno di Ingegneria Elettronica & IoT all'Università di Trieste",
+      de: "Ich bin derzeit Bachelorstudentin im dritte Jahr für Elektronik- und IoT-Technik an der Universität Triest"
     },
     description: {
-      en: "I am currently a second-year Electronic Engineering & IoT Bachelor student at the University of Trieste",
-      it: "Sono attualmente una studentessa al secondo anno del corso di Laurea Triennale in Ingegneria Elettronica & IoT all'Università di Trieste.",
-      de: "Ich bin derzeit Bachelorstudentin im zweiten Studienjahr für Elektronik- und IoT-Technik an der Universität Triest."
+      en: "I am currently a third-year Electronic Engineering & IoT Bachelor student at the University of Trieste",
+      it: "Sono attualmente una studentessa al terzo anno del corso di Laurea Triennale in Ingegneria Elettronica & IoT all'Università di Trieste.",
+      de: "Ich bin derzeit Bachelorstudentin im dritte Studienjahr für Elektronik- und IoT-Technik an der Universität Triest."
     }
   },
   {
