@@ -3,7 +3,7 @@
   "private": true,
   "description": "Martina Anese's personal website",
   "version": "0.1.0",
-  "author": "Martina Anese <martina@asperastra.org>",
+  "author": "Martina Anese <martinaanese05@gmail.com>",
   "dependencies": {
     "@parcel/watcher": "^2.6.0",
     "bootstrap": "^5.3.2",
