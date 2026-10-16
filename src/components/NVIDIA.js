@@ -8,18 +8,8 @@ import "../styles/NVIDIA.scss"
 // Import NVIDIA images from the nvidia folder
 import gr1ImitationVideo from "./../images/nvidia/Nexus.png"
 import h1FlipGif from "./../images/nvidia/Arduino.png"
-import leatherbackVideo from "./../images/nvidia/Leatherback.mp4"
 import h1TrainVideo from "./../images/nvidia/Units_campus.png"
-import frankaMoveitVideo from "./../images/nvidia/Franka Moveit.mp4"
-import frankaDrawerVideo from "./../images/nvidia/Franka Drawer.mp4"
-import carterOutdoorVideo from "./../images/nvidia/Carter Outdoor.mp4"
-import agilityWalkVideo from "./../images/nvidia/Agility Walk.mp4"
-import gtc_lousd from "./../images/nvidia/IMG_2228.webp"
-import gtc_sil from "./../images/nvidia/gtc_sil.webp"
-import newton from "./../images/nvidia/newton.webp"
-import claw from "./../images/nvidia/claw.mp4"
 import urLousdVideo from "./../images/nvidia/Ros2.jpg"
-import siggraphTalk from "./../images/nvidia/IMG_2877.webp"
 
 const NVIDIA = () => {
   const { language } = useLanguage();
@@ -72,17 +62,7 @@ const NVIDIA = () => {
     gr1ImitationVideo,
     h1FlipGif,
     h1TrainVideo,
-    urLousdVideo,
-    frankaMoveitVideo,
-    frankaDrawerVideo,
-    claw,
-    leatherbackVideo,
-    carterOutdoorVideo,
-    agilityWalkVideo,
-    gtc_lousd,
-    gtc_sil,
-    newton,
-    siggraphTalk
+    urLousdVideo
   };
 
   // Get carousel items from data with translated content

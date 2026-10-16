@@ -1,12 +1,14 @@
 {
   "name": "Main",
   "private": true,
-  "description": "Personal Website from a non web developer",
+  "description": "Martina Anese's personal website",
   "version": "0.1.0",
-  "author": "Steven Feng <jy5feng@uwaterloo.ca>",
+  "author": "Martina Anese <martina@asperastra.org>",
   "dependencies": {
+    "@parcel/watcher": "^2.6.0",
     "bootstrap": "^5.3.2",
     "date-fns": "^4.1.0",
+    "framer-motion": "^10.16.0",
     "gatsby": "^5.13.1",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-image": "^3.13.0",
@@ -22,7 +24,6 @@
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "framer-motion": "^10.16.0",
     "react-scroll": "^1.9.0",
     "react-simple-typewriter": "^5.0.1",
     "sass": "^1.69.5"
@@ -47,9 +48,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevenf7/stevenf7.github.io/"
+    "url": "https://github.com/martinaanese05/martinaanese05.github.io/"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/martinaanese05/martinaanese05.github.io/issues"
   }
 }

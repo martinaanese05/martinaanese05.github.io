@@ -11,8 +11,6 @@ import Project2_header from "../images/publications/Project2_Photo1.png"
 import Project3_header from "../images/publications/Project3_Photo1.png"
 import Project4_header from "../images/publications/Project4_Photo3.jpg"
 import Project5_header from "../images/publications/Project5_Photo1.jpg"
-import carterOutdoorVideo from "../images/nvidia/Carter Outdoor.mp4"
-import clawVideo from "../images/nvidia/claw.mp4"
 
 // Helper function to detect if file is a video
 const isVideoFile = (url) => {
@@ -145,24 +143,6 @@ const publicationsData = [
     projectLink: getLanguageUrl(language, "/projects/project1"),
     type: "PERSONAL PROJECT"
   },
-  /*
-  {
-    id: 4,
-    title: "Software-in-the-Loop Testing for Robots With OpenUSD, Isaac Sim, and ROS I",
-    subtitle: "NVIDIA GTC 2025",
-    imageSrc: carterOutdoorVideo,
-    projectLink: "https://www.nvidia.com/en-us/on-demand/session/gtc25-dlit71326/",
-    type: "NVIDIA"
-  },
-  {
-    id: 5,
-    title: "Learn OpenUSD: Robotics Best Practices I",
-    subtitle: "NVIDIA GTC 2025",
-    imageSrc: clawVideo,
-    projectLink: "https://www.nvidia.com/en-us/on-demand/session/gtc25-dlit71288/",
-    type: "NVIDIA"
-  }
-    */
 ];
 
   return (
