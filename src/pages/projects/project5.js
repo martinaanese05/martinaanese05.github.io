@@ -35,7 +35,7 @@ const ProjectContent = () => {
       captionCustom: "Building a custom drink",
       captionCustomer: "The customer screen during preparation",
       captionOperator: "The operator console: live terminal and controls",
-      note: "Note: in order to test the new AI models and how they could be implemented into the development of my projects, parts of the project 'Robot Barman' such as the HTML GUI are made with Claude Code.",
+      note: "Note: in order to test the new AI models and how they could be implemented into the development of my projects, parts of the project 'Robot Barman' such as the HTML GUI and the code structure are made with Claude Code.",
       back: "← Back to Projects",
     },
     it: {
@@ -60,7 +60,7 @@ const ProjectContent = () => {
       captionCustom: "Creazione di un drink personalizzato",
       captionCustomer: "La schermata cliente durante la preparazione",
       captionOperator: "La console operatore: terminale live e controlli",
-      note: "Nota: per testare i nuovi modelli di IA e capire come potrebbero essere integrati nello sviluppo dei miei progetti, alcune parti del progetto 'Robot Barman', come la GUI in HTML, sono state realizzate con Claude Code.",
+      note: "Nota: per testare i nuovi modelli di IA e capire come potrebbero essere integrati nello sviluppo dei miei progetti, alcune parti del progetto 'Robot Barman', come la GUI in HTML e la struttura del codice, sono state realizzate con Claude Code.",
       back: "← Torna ai Progetti",
     },
     de: {
@@ -85,7 +85,7 @@ const ProjectContent = () => {
       captionCustom: "Zusammenstellen eines eigenen Getränks",
       captionCustomer: "Der Kundenbildschirm während der Zubereitung",
       captionOperator: "Die Bedienkonsole: Live-Terminal und Steuerung",
-      note: "Hinweis: Um die neuen KI-Modelle zu testen und zu sehen, wie sie in die Entwicklung meiner Projekte integriert werden könnten, wurden Teile des Projekts 'Robot Barman', wie die HTML-GUI, mit Claude Code erstellt.",
+      note: "Hinweis: Um die neuen KI-Modelle zu testen und zu sehen, wie sie in die Entwicklung meiner Projekte integriert werden könnten, wurden Teile des Projekts 'Robot Barman', wie die HTML-GUI und die Codestruktur, mit Claude Code erstellt.",
       back: "← Zurück zu den Projekten",
     }
   };
@@ -117,22 +117,6 @@ const ProjectContent = () => {
         <VideoElement src={videoDrink} />
         <p style={captionStyle}>{current.captionDrink}</p>
       </div>
-
-      {/* GitHub link (right before overview) */}
-      <p style={{ marginBottom: "40px" }}>
-        {current.github}{" "}
-        <a href={repoUrl} target="_blank" rel="noopener noreferrer" style={{ color: "#8F00FF", fontWeight: "bold", textDecoration: "none" }}>
-          {repoUrl}
-        </a>
-      </p>
-
-      {/* Manual link */}
-      <p style={{ marginBottom: "40px" }}>
-        {current.manualNote}{" "}
-        <a href={manualUrl} target="_blank" rel="noopener noreferrer" style={{ color: "#8F00FF", fontWeight: "bold", textDecoration: "none" }}>
-          {manualUrl}
-        </a>
-      </p>
 
       {/* Why + elements */}
       <section style={{ marginBottom: "60px" }}>

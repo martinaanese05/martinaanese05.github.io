@@ -15,11 +15,11 @@ import googleScholarIcon from "./images/contactIcon/gscholar.png"
 
 // School images
 import VoltaLogo from "./images/school/Volta_stemma.jpg"
-import UnitsLogo from "./images/school/Units_stemma.jpg"
+import UnitsLogo from "./images/school/Units_vertical.jpeg"
 import StanfordLogo from "./images/school/ThOwl_stemma.webp"
 import VoltaVideo from "./images/school/Volta_video.mp4"
 import AirLabImg from "./images/nvidia/Nexus.png"
-import StanfordImg from "./images/school/ThOwl_img.png"
+import StanfordImg from "./images/school/ThOwl_img.jpeg"
 
 
 // Helper function for getting text in current language
@@ -133,7 +133,7 @@ const siteData = {
           de: "Lehrplan: Schwerpunkt auf Schaltungstheorie, IoT-Architektur und Digitalelektronik."
         },
         {
-          en: "Clubs: Founder member and technical director of the Nexus Robotics Club.",
+          en: "Clubs: Founder member and Team Lead of the Nexus Robotics Club.",
           it: "Club: membro fondatore e direttrice tecnica del Nexus Robotics Club.",
           de: "Vereine: Gründungsmitglied und technische Leiterin des Nexus Robotics Club."
         }
@@ -155,7 +155,7 @@ const siteData = {
       url: "https://www.th-owl.de/",
       description: [
         {
-          en: "I will be studying as a full time student at Th Owl in the upcoming academic year, taking courses both in English and German in the field of Electronic engineering.",
+          en: "I am currently spending a semester as a full time student at Th Owl in Lemgo, Germany, taking courses both in English and German in the field of Electronic engineering.",
           it: "Studierò come studentessa a tempo pieno alla Th Owl nel prossimo anno accademico, seguendo corsi in inglese e tedesco nel campo dell'ingegneria elettronica.",
           de: "Im kommenden Studienjahr werde ich als Vollzeitstudentin an der TH OWL studieren und Kurse im Bereich Elektrotechnik sowohl auf Englisch als auch auf Deutsch belegen."
         },
