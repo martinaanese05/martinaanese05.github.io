@@ -41,12 +41,14 @@ const siteData = {
  
   name: {
     en: "Martina Anese",
-    it: "Martina Anese"
+    it: "Martina Anese",
+    de: "Martina Anese"
   },
  
   headerParagraph: {
     en: "Welcome to my site!",
-    it: "Benvenuto nel mio sito!"
+    it: "Benvenuto nel mio sito!",
+    de: "Willkommen auf meiner Seite!"
   },
 
   // Navigation labels
@@ -102,12 +104,12 @@ const siteData = {
         },
         {
           en: "Projects: Haas CNC Machining and Lathe Operations, design and production of mechanical components.",
-          it: "Progetti: lavorazioni CNC e tornitura Haas, e dimensionamento e produzione di componenti meccanici.",
+          it: "Progetti: lavorazioni CNC e tornitura Haas, progettazione e produzione di componenti meccanici.",
           de: "Projekte: Haas-CNC-Bearbeitung und Dreharbeiten, Konstruktion und Fertigung mechanischer Bauteile."
         },
         {
           en: "Awards: Peer mathematics tutor (School Program), linear mathematics masterclass.",
-          it: "Riconoscimenti: Tutor di matematica tra pari (programma scolastico) e Masterclass di matematica lineare.",
+          it: "Riconoscimenti: tutor di matematica tra pari (programma scolastico), masterclass di matematica lineare.",
           de: "Auszeichnungen: Mathe-Tutorin für Mitschüler (Schulprogramm), Masterclass in linearer Mathematik."
         }
       ],
@@ -134,8 +136,8 @@ const siteData = {
         },
         {
           en: "Clubs: Founder member and Team Lead of the Nexus Robotics Club.",
-          it: "Club: membro fondatore e direttrice tecnica del Nexus Robotics Club.",
-          de: "Vereine: Gründungsmitglied und technische Leiterin des Nexus Robotics Club."
+          it: "Club: membro fondatore e Team Lead del Nexus Robotics Club.",
+          de: "Vereine: Gründungsmitglied und Teamleiterin des Nexus Robotics Club."
         }
       ],
     },
@@ -146,9 +148,9 @@ const siteData = {
         de: "Th Owl"
       },
       para: {
-        en: "I will be studying at Th Owl from September 2026 to March 2027 for an Erasmus+ exchange program",
-        it: "Studierò alla Th Owl da settembre 2026 a marzo 2027 nell'ambito del programma di scambio Erasmus+",
-        de: "Ich werde von September 2026 bis März 2027 im Rahmen eines Erasmus+-Austauschprogramms an der TH OWL studieren"
+        en: "I am studying at Th Owl from September 2026 to March 2027 for an Erasmus+ exchange program",
+        it: "Studio alla Th Owl da settembre 2026 a marzo 2027 nell'ambito del programma di scambio Erasmus+",
+        de: "Ich studiere von September 2026 bis März 2027 im Rahmen eines Erasmus+-Austauschprogramms an der TH OWL"
       },
       imageSrc: StanfordLogo,
       workImg: StanfordImg,
@@ -156,8 +158,8 @@ const siteData = {
       description: [
         {
           en: "I am currently spending a semester as a full time student at Th Owl in Lemgo, Germany, taking courses both in English and German in the field of Electronic engineering.",
-          it: "Studierò come studentessa a tempo pieno alla Th Owl nel prossimo anno accademico, seguendo corsi in inglese e tedesco nel campo dell'ingegneria elettronica.",
-          de: "Im kommenden Studienjahr werde ich als Vollzeitstudentin an der TH OWL studieren und Kurse im Bereich Elektrotechnik sowohl auf Englisch als auch auf Deutsch belegen."
+          it: "Sto trascorrendo un semestre come studentessa a tempo pieno alla Th Owl di Lemgo, in Germania, seguendo corsi sia in inglese che in tedesco nel campo dell'ingegneria elettronica.",
+          de: "Ich verbringe derzeit ein Semester als Vollzeitstudentin an der TH OWL in Lemgo, Deutschland, und belege Kurse im Bereich Elektrotechnik sowohl auf Englisch als auch auf Deutsch."
         },
       ],
     }
@@ -167,25 +169,25 @@ const siteData = {
 aboutParaOne: {
   en: "I am an Electronic & IoT Engineering student at the University of Trieste, currently in my third year.",
   it: "Sono una studentessa di Ingegneria Elettronica & IoT presso l'Università degli Studi di Trieste, attualmente al mio terzo anno.",
-  de: "Ich studiere Elektronik- und IoT-Technik an der Universität Triest, derzeit im dritte Studienjahr."
+  de: "Ich studiere Elektronik- und IoT-Technik an der Universität Triest, derzeit im dritten Studienjahr."
 },
 aboutParaTwo: {
-  en: "Beyond my studies, robotics is my main passion: I have creating my own projects since I was 16, keep learning new things, and enjoy teaching others. I co-founded Nexus Robotics, a university club where I help other students build their own robots, and I also support the makers at Asperastra, a local association in Trieste.",
-  it: "Oltre ai miei studi, gestisco il reparto di Robotica di un'associazione locale chiamata Asperastra, dove mi occupo di diversi progetti robotici e insegno Arduino ai nuovi membri. Ho anche co-fondato un club di robotica universitario per creare uno spazio dedicato allo sviluppo di robot personalizzati insieme ad altri studenti.",
-  de: "Neben meinem Studium leite ich die Abteilung Robotik bei einem lokalen Verein namens Asperastra, wo ich mich um verschiedene Robotikprojekte kümmere und den Mitgliedern Arduino beibringe. Außerdem habe ich einen Robotik-Club an der Universität mitgegründet, um Studierenden einen Raum zur Entwicklung eigener Roboter zu bieten."
+  en: "Beyond my studies, robotics is my main passion: I have been creating my own projects since I was 16, keep learning new things, and enjoy teaching others. I co-founded Nexus Robotics, a university club where I help other students build their own robots, and I also support the makers at Asperastra, a local association in Trieste.",
+  it: "Oltre agli studi, la robotica è la mia passione principale: creo progetti miei da quando avevo 16 anni, continuo a imparare cose nuove e mi piace insegnare agli altri. Ho co-fondato Nexus Robotics, un club universitario in cui aiuto altri studenti a costruire i propri robot, e supporto anche i maker di Asperastra, un'associazione locale di Trieste.",
+  de: "Neben meinem Studium ist Robotik meine größte Leidenschaft: Seit ich 16 bin, entwickle ich eigene Projekte, lerne ständig Neues dazu und bringe anderen gerne etwas bei. Ich habe Nexus Robotics mitgegründet, einen Uni-Club, in dem ich anderen Studierenden helfe, ihre eigenen Roboter zu bauen, und unterstütze außerdem die Maker bei Asperastra, einem lokalen Verein in Triest."
 },
 aboutParaThree: {
   en: "I love putting into practice my knowledge: whether that’s going from a 3D model to the real assembly, fixing Arduino code or working out kinematics, I always find it rewarding and fun.",
-  it: "Amo mettere in pratica le mie conoscenze: che si tratti di passare dai modelli 3D all'assemblaggio fisico, di fare troubleshooting di codice Arduino o di calcolare la cinematica, trovo che sia sempre un'esperienza gratificante e stimolante.",
-  de: "Ich liebe es, mein Wissen in die Praxis umzusetzen: Ob es darum geht, von 3D-Modellen zur physischen Montage überzugehen, Arduino-Code zu debuggen oder Kinematik zu berechnen – ich finde es immer bereichernd und macht mir Spaß."
+  it: "Amo mettere in pratica le mie conoscenze: che si tratti di passare da un modello 3D all'assemblaggio reale, di sistemare codice Arduino o di risolvere la cinematica, lo trovo sempre gratificante e divertente.",
+  de: "Ich liebe es, mein Wissen in die Praxis umzusetzen: Ob es darum geht, von einem 3D-Modell zur echten Montage zu kommen, Arduino-Code zu reparieren oder Kinematik auszurechnen – es ist für mich immer lohnend und macht Spaß."
 },
 
 
 nvidiaExperience: [
   {
     en: "I am a founder and the Team Lead of Nexus, a University technology club.",
-    it: "Sto contribuendo alla creazione di un nuovo club tecnologico universitario, Nexus Robotics: costruiamo robot personalizzati e partecipiamo a competizioni di robotica. Insegno anche il corso \"Hello World, Arduino\" al Fablab locale Asperastra. Attualmente sono una studentessa al terzo anno del corso di Laurea Triennale in Ingegneria Elettronica & IoT all'Università di Trieste e sto imparando ROS2 per implementarlo nei miei progetti, come il braccio Dobot e il robot quadrupede che ho progettato.",
-    de: "Ich trage zur Gründung eines neuen Technologie-Clubs an der Universität bei, Nexus Robotics: Wir bauen eigene Roboter und nehmen an Robotik-Wettbewerben teil. Außerdem unterrichte ich den Kurs \"Hello World, Arduino\" im lokalen Fablab Asperastra. Aktuell bin ich Bachelorstudentin im dritte Jahr für Elektronik- und IoT-Technik an der Universität Triest und lerne ROS2, um es in meinen Projekten einzusetzen, wie zum Beispiel beim Dobot-Arm und dem von mir entworfenen vierbeinigen Roboter."
+    it: "Sono una delle fondatrici e la Team Lead di Nexus, un club tecnologico universitario.",
+    de: "Ich bin Mitgründerin und Teamleiterin von Nexus, einem Technologie-Club an der Universität."
   }
 ],
 
@@ -197,13 +199,13 @@ nvidiaCarouselItems: [
     type: 'image',
     title: {
       en: "I am a founder and the Team Lead of Nexus, a University technology club",
-      it: "Sto contribuendo alla creazione di un nuovo club tecnologico universitario, Nexus Robotics",
-      de: "Ich trage zur Gründung eines neuen Technologie-Clubs an der Universität bei, Nexus Robotics"
+      it: "Sono una delle fondatrici e la Team Lead di Nexus, un club tecnologico universitario",
+      de: "Ich bin Mitgründerin und Teamleiterin von Nexus, einem Technologie-Club an der Universität"
     },
     description: {
       en: "I am a founder and the Team Lead of Nexus, a University technology club.",
-      it: "Sto contribuendo alla creazione di un nuovo club tecnologico universitario, Nexus Robotics: costruiamo robot personalizzati e partecipiamo a competizioni di robotica.",
-      de: "Ich trage zur Gründung eines neuen Technologie-Clubs an der Universität bei, Nexus Robotics: Wir bauen eigene Roboter und nehmen an Robotik-Wettbewerben teil."
+      it: "Sono una delle fondatrici e la Team Lead di Nexus, un club tecnologico universitario.",
+      de: "Ich bin Mitgründerin und Teamleiterin von Nexus, einem Technologie-Club an der Universität."
     }
   },
   /*
@@ -228,12 +230,12 @@ nvidiaCarouselItems: [
     title: {
       en: "I am currently a third-year Electronic Engineering & IoT Bachelor student at the University of Trieste",
       it: "Sono attualmente una studentessa al terzo anno di Ingegneria Elettronica & IoT all'Università di Trieste",
-      de: "Ich bin derzeit Bachelorstudentin im dritte Jahr für Elektronik- und IoT-Technik an der Universität Triest"
+      de: "Ich bin derzeit Bachelorstudentin im dritten Jahr für Elektronik- und IoT-Technik an der Universität Triest"
     },
     description: {
       en: "I am currently a third-year Electronic Engineering & IoT Bachelor student at the University of Trieste",
-      it: "Sono attualmente una studentessa al terzo anno del corso di Laurea Triennale in Ingegneria Elettronica & IoT all'Università di Trieste.",
-      de: "Ich bin derzeit Bachelorstudentin im dritte Studienjahr für Elektronik- und IoT-Technik an der Universität Triest."
+      it: "Sono attualmente una studentessa al terzo anno della Laurea Triennale in Ingegneria Elettronica & IoT all'Università di Trieste",
+      de: "Ich bin derzeit Bachelorstudentin im dritten Studienjahr für Elektronik- und IoT-Technik an der Universität Triest"
     }
   },
   {
@@ -271,7 +273,7 @@ nvidiaCarouselItems: [
     {
       img: rosIcon,
       para:
-        "ROS2, Gazebo",
+        "ROS2, Gazebo (In Progress)",
     },
     
   ],
