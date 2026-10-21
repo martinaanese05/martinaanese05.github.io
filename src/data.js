@@ -170,21 +170,20 @@ aboutParaOne: {
   de: "Ich studiere Elektronik- und IoT-Technik an der Universität Triest, derzeit im dritte Studienjahr."
 },
 aboutParaTwo: {
-  en: "Beyond my studies, I manage the department of Robotics at a local association called Asperastra, where I take care of the different robotics projects and teach Arduino to the members. I also co-founded a university robotics club to build a space for peers to develop custom robots.",
+  en: "Beyond my studies, robotics is my main passion: I have creating my own projects since I was 16, keep learning new things, and enjoy teaching others. I co-founded Nexus Robotics, a university club where I help other students build their own robots, and I also support the makers at Asperastra, a local association in Trieste.",
   it: "Oltre ai miei studi, gestisco il reparto di Robotica di un'associazione locale chiamata Asperastra, dove mi occupo di diversi progetti robotici e insegno Arduino ai nuovi membri. Ho anche co-fondato un club di robotica universitario per creare uno spazio dedicato allo sviluppo di robot personalizzati insieme ad altri studenti.",
   de: "Neben meinem Studium leite ich die Abteilung Robotik bei einem lokalen Verein namens Asperastra, wo ich mich um verschiedene Robotikprojekte kümmere und den Mitgliedern Arduino beibringe. Außerdem habe ich einen Robotik-Club an der Universität mitgegründet, um Studierenden einen Raum zur Entwicklung eigener Roboter zu bieten."
 },
 aboutParaThree: {
-  en: "I love putting into practice my knowledge: whether that's moving from 3D models to physical assembly, troubleshooting Arduino code or calculating kinematics, I always find it rewarding and enjoyable.",
+  en: "I love putting into practice my knowledge: whether that’s going from a 3D model to the real assembly, fixing Arduino code or working out kinematics, I always find it rewarding and fun.",
   it: "Amo mettere in pratica le mie conoscenze: che si tratti di passare dai modelli 3D all'assemblaggio fisico, di fare troubleshooting di codice Arduino o di calcolare la cinematica, trovo che sia sempre un'esperienza gratificante e stimolante.",
   de: "Ich liebe es, mein Wissen in die Praxis umzusetzen: Ob es darum geht, von 3D-Modellen zur physischen Montage überzugehen, Arduino-Code zu debuggen oder Kinematik zu berechnen – ich finde es immer bereichernd und macht mir Spaß."
 },
 
 
-
 nvidiaExperience: [
   {
-    en: "I am contributing to the creation of a new University technology club, Nexus Robotics: we build custom robots and participate in robotics competitions. I am also teaching the course \"Hello World, Arduino\" at the local Fablab, Asperastra. Currently, I am a third-year Electronic Engineering & IoT Bachelor student at the University of Trieste and I am learning ROS2 to implement it in my projects, such as the Dobot arm and the quadruped robot I designed.",
+    en: "I am a founder and the Team Lead of Nexus, a University technology club.",
     it: "Sto contribuendo alla creazione di un nuovo club tecnologico universitario, Nexus Robotics: costruiamo robot personalizzati e partecipiamo a competizioni di robotica. Insegno anche il corso \"Hello World, Arduino\" al Fablab locale Asperastra. Attualmente sono una studentessa al terzo anno del corso di Laurea Triennale in Ingegneria Elettronica & IoT all'Università di Trieste e sto imparando ROS2 per implementarlo nei miei progetti, come il braccio Dobot e il robot quadrupede che ho progettato.",
     de: "Ich trage zur Gründung eines neuen Technologie-Clubs an der Universität bei, Nexus Robotics: Wir bauen eigene Roboter und nehmen an Robotik-Wettbewerben teil. Außerdem unterrichte ich den Kurs \"Hello World, Arduino\" im lokalen Fablab Asperastra. Aktuell bin ich Bachelorstudentin im dritte Jahr für Elektronik- und IoT-Technik an der Universität Triest und lerne ROS2, um es in meinen Projekten einzusetzen, wie zum Beispiel beim Dobot-Arm und dem von mir entworfenen vierbeinigen Roboter."
   }
@@ -197,16 +196,17 @@ nvidiaCarouselItems: [
     media: "gr1ImitationVideo",
     type: 'image',
     title: {
-      en: "I am contributing to the creation of a new University technology club, Nexus Robotics",
+      en: "I am a founder and the Team Lead of Nexus, a University technology club",
       it: "Sto contribuendo alla creazione di un nuovo club tecnologico universitario, Nexus Robotics",
       de: "Ich trage zur Gründung eines neuen Technologie-Clubs an der Universität bei, Nexus Robotics"
     },
     description: {
-      en: "I am contributing to the creation of a new University technology club, Nexus Robotics: we build custom robots and participate in robotics competitions",
+      en: "I am a founder and the Team Lead of Nexus, a University technology club.",
       it: "Sto contribuendo alla creazione di un nuovo club tecnologico universitario, Nexus Robotics: costruiamo robot personalizzati e partecipiamo a competizioni di robotica.",
       de: "Ich trage zur Gründung eines neuen Technologie-Clubs an der Universität bei, Nexus Robotics: Wir bauen eigene Roboter und nehmen an Robotik-Wettbewerben teil."
     }
   },
+  /*
   {
     media: "h1FlipGif",
     type: 'image',
@@ -221,6 +221,7 @@ nvidiaCarouselItems: [
       de: "Ich unterrichte den Kurs \"Hello World, Arduino\" im Asperastra Innovation Lab."
     }
   },
+  */
   {
     media: "h1TrainVideo",
     type: 'image',
