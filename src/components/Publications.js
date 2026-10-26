@@ -11,7 +11,7 @@ import Project2_header from "../images/publications/Project2_Photo1.png"
 import Project3_header from "../images/publications/Project3_Photo1.png"
 import Project4_header from "../images/publications/Project4_Photo3.jpg"
 import Project5_header from "../images/publications/Project5_Photo1.jpg"
-import SideQuests_header from "../images/sidequests/cr5-cups.mp4"
+import SideQuests_header from "../images/sidequests/card.png"
 
 // Helper function to detect if file is a video
 const isVideoFile = (url) => {
