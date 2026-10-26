@@ -146,14 +146,6 @@ const ProjectContent = () => {
       <h1 style={{ fontSize: "2.5rem", color: "#333", marginBottom: "30px" }}>{current.title}</h1>
       <p>{current.intro}</p>
 
-      {/* Go2 */}
-      <h2 style={sectionTitle}>{current.go2}</h2>
-      <p>{current.go2Text}</p>
-      <div style={rowStyle}>
-        <Clip src={videoGo2Terminal} caption={c.go2Terminal} />
-        <Clip src={videoGo2Fair} caption={c.go2Fair} />
-      </div>
-
       {/* CR5 */}
       <h2 style={sectionTitle}>{current.cr5}</h2>
       <p>{current.cr5Text}</p>
@@ -167,6 +159,14 @@ const ProjectContent = () => {
       </div>
       <div style={{ ...rowStyle, marginTop: "40px" }}>
         <Clip src={videoBubbles} caption={c.bubbles} horizontal />
+      </div>
+
+      {/* Go2 */}
+      <h2 style={sectionTitle}>{current.go2}</h2>
+      <p>{current.go2Text}</p>
+      <div style={rowStyle}>
+        <Clip src={videoGo2Terminal} caption={c.go2Terminal} />
+        <Clip src={videoGo2Fair} caption={c.go2Fair} />
       </div>
 
       <div style={{ marginTop: "60px", borderTop: "1px solid #eee", paddingTop: "20px" }}>
