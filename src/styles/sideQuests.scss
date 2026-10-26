@@ -1,0 +1,174 @@
+// Side Quests page — matches the other project pages (Montserrat, #333 text, #8F00FF headings)
+
+$sq-purple: #8F00FF;
+$sq-text: #333;
+$sq-muted: #666;
+$sq-line: #eee;
+$sq-tag-bg: #f4eefb;
+$sq-tag-text: #5a1f99;
+
+.sq-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 120px 20px;
+  text-align: left;
+  line-height: 1.6;
+  color: $sq-text;
+}
+
+.sq-header {
+  margin-bottom: 24px;
+
+  h1 {
+    font-size: 2.5rem;
+    color: $sq-text;
+    margin-bottom: 16px;
+  }
+}
+
+.sq-intro {
+  max-width: 62ch;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+// One entry = video(s) on the left, text on the right
+.sq-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  gap: 40px;
+  align-items: center;
+  padding: 56px 0;
+  border-top: 1px solid $sq-line;
+}
+
+// Two vertical videos side by side (flower + pizza)
+.sq-entry--pair {
+  grid-template-columns: minmax(0, 470px) minmax(0, 1fr);
+}
+
+// Horizontal + vertical video on top, text underneath (Maker Faire)
+.sq-entry--wide {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+
+  .sq-text {
+    max-width: 62ch;
+  }
+}
+
+.sq-media {
+  display: flex;
+}
+
+.sq-media--pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+// Column widths in the 16:9 / 9:16 ratio so both clips end up the same height
+.sq-media--wide {
+  display: grid;
+  grid-template-columns: 3.16fr 1fr;
+  gap: 14px;
+}
+
+.sq-video {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  background: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sq-video--vertical {
+  aspect-ratio: 9 / 16;
+}
+
+.sq-video--horizontal {
+  aspect-ratio: 16 / 9;
+}
+
+.sq-text {
+  h2 {
+    color: $sq-purple;
+    font-size: 1.6rem;
+    margin: 0 0 4px;
+  }
+
+  p {
+    margin: 0 0 14px;
+  }
+}
+
+.sq-subtitle {
+  font-weight: 600;
+  color: $sq-muted;
+}
+
+.sq-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 6px 0 0;
+
+  li {
+    background: $sq-tag-bg;
+    color: $sq-tag-text;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 12px;
+  }
+}
+
+.sq-back {
+  margin-top: 20px;
+  border-top: 1px solid $sq-line;
+  padding-top: 20px;
+
+  a {
+    color: $sq-purple;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Phones and narrow tablets: stack everything
+@media (max-width: 760px) {
+  .sq-page {
+    padding-top: 100px;
+  }
+
+  .sq-header h1 {
+    font-size: 2rem;
+  }
+
+  .sq-entry,
+  .sq-entry--pair {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    padding: 40px 0;
+  }
+
+  .sq-entry:not(.sq-entry--pair):not(.sq-entry--wide) .sq-media {
+    max-width: 320px;
+  }
+
+  .sq-media--wide {
+    grid-template-columns: minmax(0, 1fr);
+
+    .sq-video--vertical {
+      max-width: 320px;
+    }
+  }
+}

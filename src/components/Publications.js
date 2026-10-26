@@ -11,6 +11,7 @@ import Project2_header from "../images/publications/Project2_Photo1.png"
 import Project3_header from "../images/publications/Project3_Photo1.png"
 import Project4_header from "../images/publications/Project4_Photo3.jpg"
 import Project5_header from "../images/publications/Project5_Photo1.jpg"
+import SideQuests_header from "../images/sidequests/cr5-cups.mp4"
 
 // Helper function to detect if file is a video
 const isVideoFile = (url) => {
@@ -142,6 +143,14 @@ const publicationsData = [
     imageSrc: Project1_header,
     projectLink: getLanguageUrl(language, "/projects/project1"),
     type: "PERSONAL PROJECT"
+  },
+  {
+    id: 5,
+    title: "Side Quests",
+    subtitle: "",
+    imageSrc: SideQuests_header,
+    projectLink: getLanguageUrl(language, "/projects/side-quests"),
+    type: "QUICK BUILDS"
   },
 ];
 
