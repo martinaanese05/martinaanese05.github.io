@@ -16,20 +16,20 @@ const content = {
   en: {
     title: "Side Quests",
     intro:
-      "Not every project takes months. These are small things I built with the robots I had access to, about three hours each, mostly to see whether I could.",
+      "Some fun little things I did, either to figure out how the robots worked when we had just bought them, or just for fun!",
     go2: "Unitree Go2 Pro",
     go2Text:
-      "The Pro version is meant to be driven with its joystick and app, not programmed. Using an unofficial open-source library, I control it from my laptop over Wi-Fi.",
+      "This version of the robot dog is meant to be driven with its joystick and app, and doesn't allow for custom programming.",
     cr5: "Dobot CR5",
     cr5Text:
-      "The same arm as the Robot Barman, used for quick tests of grip, precision and working close to people.",
+      "The Dobot CR5AS is great for both big and small projects, and it's built to work alongside humans.",
     clips: {
-      go2Terminal: ["No joystick required", "Standing up and lying down on commands typed in the terminal"],
-      go2Fair: ["Meeting the crowd", "Walking among visitors at Maker Faire Trieste, May 2026"],
-      cups: ["Cup castle", "Gentle grips and exact placement, one cup at a time"],
-      camera: ["Camera operator", "Slow, close shots that never touch the objects"],
-      flower: ["Flower delivery", "Light and fragile"],
-      pizza: ["Pizza delivery", "Soft, floppy, and sliding in the gripper"],
+      go2Terminal: ["No joystick required", "I found a way to control the dog with custom scripts instead of the joystick"],
+      go2Fair: ["Meeting the crowd", "Showing the robot dog at Maker Faire Trieste, May 2026"],
+      cups: ["Cup castle", "This was the first project I made with the robot arm"],
+      camera: ["Camera operator", "We used the robot arm to shoot a promotional video, testing its precision"],
+      flower: ["Flower delivery", "Diving into the concept of human–robot interaction for an event"],
+      pizza: ["Pizza delivery", "Because who wouldn't want a slice of pizza served by a robot?"],
       bubbles: ["Bubbles at Maker Faire Trieste", "Soap bubbles for visitors, May 2026"],
     },
     back: "← Back to Projects",
@@ -37,20 +37,20 @@ const content = {
   it: {
     title: "Side Quests",
     intro:
-      "Non tutti i progetti richiedono mesi. Queste sono piccole cose che ho realizzato con i robot a cui avevo accesso, circa tre ore ciascuna, soprattutto per vedere se ci riuscivo.",
+      "Piccoli progetti divertenti che ho fatto, a volte per capire come funzionavano i robot appena acquistati, a volte solo per divertimento!",
     go2: "Unitree Go2 Pro",
     go2Text:
-      "La versione Pro è pensata per essere guidata con joystick e app, non per essere programmata. Con una libreria open-source non ufficiale la controllo dal mio portatile via Wi-Fi.",
+      "Questa versione del cane robot è pensata per essere guidata con il joystick e l'app, e non permette una programmazione personalizzata.",
     cr5: "Dobot CR5",
     cr5Text:
-      "Lo stesso braccio del Robot Barman, usato per test veloci di presa, precisione e lavoro vicino alle persone.",
+      "Il Dobot CR5AS è ottimo sia per progetti grandi che piccoli, ed è pensato per lavorare accanto alle persone.",
     clips: {
-      go2Terminal: ["Niente joystick", "Si alza e si sdraia con comandi scritti nel terminale"],
-      go2Fair: ["Tra il pubblico", "In giro tra i visitatori alla Maker Faire di Trieste, maggio 2026"],
-      cups: ["Castello di bicchieri", "Prese delicate e posizionamento preciso, un bicchiere alla volta"],
-      camera: ["Operatore di ripresa", "Riprese lente e ravvicinate, senza mai toccare gli oggetti"],
-      flower: ["Consegna del fiore", "Leggero e fragile"],
-      pizza: ["Consegna della pizza", "Morbida, flessibile e scivola nella pinza"],
+      go2Terminal: ["Niente joystick", "Ho trovato un modo per controllare il cane con script personalizzati invece del joystick"],
+      go2Fair: ["Tra il pubblico", "Il cane robot in mostra alla Maker Faire di Trieste, maggio 2026"],
+      cups: ["Castello di bicchieri", "Il mio primo progetto con il braccio robotico"],
+      camera: ["Operatore di ripresa", "Abbiamo usato il braccio robotico per girare un video promozionale, mettendo alla prova la sua precisione"],
+      flower: ["Consegna del fiore", "Un primo approccio all'interazione uomo-robot, per un evento"],
+      pizza: ["Consegna della pizza", "Perché a chi non piacerebbe una fetta di pizza servita da un robot?"],
       bubbles: ["Bolle alla Maker Faire di Trieste", "Bolle di sapone per i visitatori, maggio 2026"],
     },
     back: "← Torna ai Progetti",
@@ -58,20 +58,20 @@ const content = {
   de: {
     title: "Side Quests",
     intro:
-      "Nicht jedes Projekt dauert Monate. Das hier sind kleine Dinge, die ich mit den Robotern gebaut habe, zu denen ich Zugang hatte – jeweils etwa drei Stunden, meistens um zu sehen, ob es klappt.",
+      "Kleine, lustige Projekte – manchmal, um herauszufinden, wie die Roboter funktionieren, als wir sie gerade gekauft hatten, und manchmal einfach aus Spaß!",
     go2: "Unitree Go2 Pro",
     go2Text:
-      "Die Pro-Version ist dafür gedacht, mit Joystick und App gesteuert zu werden, nicht programmiert. Mit einer inoffiziellen Open-Source-Bibliothek steuere ich ihn über WLAN von meinem Laptop aus.",
+      "Diese Version des Roboterhunds ist dafür gedacht, mit Joystick und App gesteuert zu werden, und erlaubt keine eigene Programmierung.",
     cr5: "Dobot CR5",
     cr5Text:
-      "Derselbe Arm wie beim Robot Barman, für schnelle Tests zu Greifen, Präzision und Arbeiten in der Nähe von Menschen.",
+      "Der Dobot CR5AS eignet sich für große und kleine Projekte und ist dafür gemacht, mit Menschen zusammenzuarbeiten.",
     clips: {
-      go2Terminal: ["Ohne Joystick", "Aufstehen und Hinlegen per Befehl aus dem Terminal"],
-      go2Fair: ["Unter Menschen", "Unterwegs zwischen Besuchern auf der Maker Faire Triest, Mai 2026"],
-      cups: ["Becherburg", "Sanft greifen und genau absetzen, Becher für Becher"],
-      camera: ["Kamerafrau", "Langsame Nahaufnahmen, ohne die Gegenstände zu berühren"],
-      flower: ["Blumenlieferung", "Leicht und zerbrechlich"],
-      pizza: ["Pizzalieferung", "Weich, labbrig und rutscht im Greifer"],
+      go2Terminal: ["Ohne Joystick", "Ich habe einen Weg gefunden, den Hund mit eigenen Skripten statt mit dem Joystick zu steuern"],
+      go2Fair: ["Unter Menschen", "Der Roboterhund auf der Maker Faire Triest, Mai 2026"],
+      cups: ["Becherburg", "Mein erstes Projekt mit dem Roboterarm"],
+      camera: ["Kamerafrau", "Wir haben mit dem Roboterarm ein Werbevideo gedreht und dabei seine Präzision getestet"],
+      flower: ["Blumenlieferung", "Ein erster Einstieg in die Mensch-Roboter-Interaktion, für eine Veranstaltung"],
+      pizza: ["Pizzalieferung", "Denn wer möchte nicht ein Stück Pizza, serviert von einem Roboter?"],
       bubbles: ["Seifenblasen auf der Maker Faire Triest", "Seifenblasen für die Besucher, Mai 2026"],
     },
     back: "← Zurück zu den Projekten",
