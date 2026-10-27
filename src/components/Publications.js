@@ -105,6 +105,14 @@ const { getLanguageUrl } = useLanguage();
 
 const publicationsData = [
     {
+    id: 5,
+    title: "Side Quests",
+    subtitle: "",
+    imageSrc: SideQuests_header,
+    projectLink: getLanguageUrl(language, "/projects/side-quests"),
+    type: "QUICK BUILDS"
+  },
+    {
     id: 0,
     title: "Robot barman",
     subtitle: "",
@@ -143,14 +151,6 @@ const publicationsData = [
     imageSrc: Project1_header,
     projectLink: getLanguageUrl(language, "/projects/project1"),
     type: "PERSONAL PROJECT"
-  },
-  {
-    id: 5,
-    title: "Side Quests",
-    subtitle: "",
-    imageSrc: SideQuests_header,
-    projectLink: getLanguageUrl(language, "/projects/side-quests"),
-    type: "QUICK BUILDS"
   },
 ];
 
