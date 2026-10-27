@@ -1,5 +1,7 @@
 import React from "react"
 
+import { Helmet } from "react-helmet"
+import headerImg from "../images/Header.webp"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 // Components
@@ -15,6 +17,10 @@ const IndexPage = () => (
   <Layout>
     {/* eslint-disable-next-line react/jsx-pascal-case */}
     <SEO title="Martina Anese" />
+    {/* Start downloading the big header photo right away */}
+    <Helmet>
+      <link rel="preload" as="image" href={headerImg} />
+    </Helmet>
     <Header></Header>
     <About></About>
     <Nvidia></Nvidia>

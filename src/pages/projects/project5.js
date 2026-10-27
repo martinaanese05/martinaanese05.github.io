@@ -4,10 +4,10 @@ import { useLanguage } from "../../contexts/LanguageContext"
 
 import videoDrink from "../../images/publications/Project5_Video1.mp4"
 import videoSetup from "../../images/publications/Project5_Video2.mp4"
-import fotoMenu from "../../images/publications/Project5_Photo2.png"
-import fotoCustom from "../../images/publications/Project5_Photo3.png"
-import fotoCustomer from "../../images/publications/Project5_Photo5.png"
-import fotoOperator from "../../images/publications/Project5_Photo4.png"
+import fotoMenu from "../../images/publications/Project5_Photo2.webp"
+import fotoCustom from "../../images/publications/Project5_Photo3.webp"
+import fotoCustomer from "../../images/publications/Project5_Photo5.webp"
+import fotoOperator from "../../images/publications/Project5_Photo4.webp"
 
 const ProjectContent = () => {
   const { language } = useLanguage();

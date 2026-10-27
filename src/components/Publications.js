@@ -6,12 +6,12 @@ import "../styles/publications.scss"
 
 
 // Import publication the images/videos
-import Project1_header from "../images/publications/Project1_Photo1.png"
-import Project2_header from "../images/publications/Project2_Photo1.png"
-import Project3_header from "../images/publications/Project3_Photo1.png"
-import Project4_header from "../images/publications/Project4_Photo3.jpg"
-import Project5_header from "../images/publications/Project5_Photo1.jpg"
-import SideQuests_header from "../images/sidequests/card.png"
+import Project1_header from "../images/publications/Project1_Photo1.webp"
+import Project2_header from "../images/publications/Project2_Photo1.webp"
+import Project3_header from "../images/publications/Project3_Photo1.webp"
+import Project4_header from "../images/publications/Project4_Photo3.webp"
+import Project5_header from "../images/publications/Project5_Photo1.webp"
+import SideQuests_header from "../images/sidequests/card.webp"
 
 // Helper function to detect if file is a video
 const isVideoFile = (url) => {

@@ -1,6 +1,6 @@
 // Skills Icons
-import clangIcon from "./images/skillsIcon/Code.png"
-import rosIcon from "./images/skillsIcon/ROS.jpg"
+import clangIcon from "./images/skillsIcon/Code.webp"
+import rosIcon from "./images/skillsIcon/ROS.webp"
 import openCVIcon from "./images/skillsIcon/OpenCV.png"
 import RPIIcon from "./images/skillsIcon/CPU.svg"
 import SolidworksIcon from "./images/skillsIcon/CAD.svg"
@@ -10,16 +10,16 @@ import airplaneIcon from "./images/skillsIcon/airplane.svg"
 
 // Social Icon
 import githubIcon from "./images/contactIcon/github.svg"
-import linkedinIcon from "./images/contactIcon/linkedin.png"
+import linkedinIcon from "./images/contactIcon/linkedin.webp"
 import googleScholarIcon from "./images/contactIcon/gscholar.png"
 
 // School images
-import VoltaLogo from "./images/school/Volta_stemma.jpg"
-import UnitsLogo from "./images/school/Units_vertical.jpeg"
+import VoltaLogo from "./images/school/Volta_stemma.webp"
+import UnitsLogo from "./images/school/Units_vertical.webp"
 import StanfordLogo from "./images/school/ThOwl_stemma.webp"
 import VoltaVideo from "./images/school/Volta_video.mp4"
-import AirLabImg from "./images/nvidia/Nexus.png"
-import StanfordImg from "./images/school/ThOwl_img.jpeg"
+import AirLabImg from "./images/nvidia/Nexus.webp"
+import StanfordImg from "./images/school/ThOwl_img.webp"
 
 
 // Helper function for getting text in current language

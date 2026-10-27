@@ -2,8 +2,8 @@ import React from "react"
 import Layout from "../../components/layout"
 import { useLanguage } from "../../contexts/LanguageContext"
 
-import fotoPrincipale from "../../images/publications/Project1_Photo1.png" 
-import fotoLogica from "../../images/publications/Project1_Photo2.png"
+import fotoPrincipale from "../../images/publications/Project1_Photo1.webp" 
+import fotoLogica from "../../images/publications/Project1_Photo2.webp"
 
 const ProjectContent = () => {
   const { language } = useLanguage();

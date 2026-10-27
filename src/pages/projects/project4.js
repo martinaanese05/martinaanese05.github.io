@@ -5,8 +5,8 @@ import { useLanguage } from "../../contexts/LanguageContext"
 import videoRobotDog from "../../images/publications/Project4_Video1.mp4" 
 import videoFinale1 from "../../images/publications/Project4_Video2.mp4"
 import videoFinale2 from "../../images/publications/Project4_Video3.mp4"
-import fotoDettaglio1 from "../../images/publications/Project4_Photo1.png"
-import fotoDettaglio2 from "../../images/publications/Project4_Photo2.png"
+import fotoDettaglio1 from "../../images/publications/Project4_Photo1.webp"
+import fotoDettaglio2 from "../../images/publications/Project4_Photo2.webp"
 import videoSottoTutto from "../../images/publications/Project4_Video4.mp4"
 
 const ProjectContent = () => {

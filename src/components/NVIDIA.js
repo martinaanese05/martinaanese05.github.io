@@ -6,10 +6,10 @@ import data, { getText } from "../data"
 import "../styles/NVIDIA.scss"
 
 // Import NVIDIA images from the nvidia folder
-import gr1ImitationVideo from "./../images/nvidia/Nexus.png"
-import h1FlipGif from "./../images/nvidia/Arduino.png"
-import h1TrainVideo from "./../images/nvidia/Units_campus.png"
-import urLousdVideo from "./../images/nvidia/Ros2.jpg"
+import gr1ImitationVideo from "./../images/nvidia/Nexus.webp"
+import h1FlipGif from "./../images/nvidia/Arduino.webp"
+import h1TrainVideo from "./../images/nvidia/Units_campus.webp"
+import urLousdVideo from "./../images/nvidia/Ros2.webp"
 
 const NVIDIA = () => {
   const { language } = useLanguage();
