@@ -135,8 +135,8 @@ const siteData = {
           de: "Lehrplan: Schwerpunkt auf Schaltungstheorie, IoT-Architektur und Digitalelektronik."
         },
         {
-          en: "Clubs: Founder member and Team Lead of the Nexus Robotics Club.",
-          it: "Club: membro fondatore e Team Lead del Nexus Robotics Club.",
+          en: "Clubs: Founder member and Project Manager of the Nexus Robotics Club.",
+          it: "Club: membro fondatore e roject Manager del Nexus Robotics Club.",
           de: "Vereine: Gründungsmitglied und Teamleiterin des Nexus Robotics Club."
         }
       ],
@@ -185,8 +185,8 @@ aboutParaThree: {
 
 nvidiaExperience: [
   {
-    en: "I am a founder and the Team Lead of Nexus, a University technology club.",
-    it: "Sono una delle fondatrici e la Team Lead di Nexus, un club tecnologico universitario.",
+    en: "I am a founder and the roject Manager  of Nexus, a University technology club.",
+    it: "Sono una delle fondatrici e la roject Manager  di Nexus, un club tecnologico universitario.",
     de: "Ich bin Mitgründerin und Teamleiterin von Nexus, einem Technologie-Club an der Universität."
   }
 ],
@@ -198,13 +198,13 @@ nvidiaCarouselItems: [
     media: "gr1ImitationVideo",
     type: 'image',
     title: {
-      en: "I am a founder and the Team Lead of Nexus, a University technology club",
-      it: "Sono una delle fondatrici e la Team Lead di Nexus, un club tecnologico universitario",
+      en: "I am a founder and the roject Manager of Nexus, a University technology club",
+      it: "Sono una delle fondatrici e la roject Manager di Nexus, un club tecnologico universitario",
       de: "Ich bin Mitgründerin und Teamleiterin von Nexus, einem Technologie-Club an der Universität"
     },
     description: {
-      en: "I am a founder and the Team Lead of Nexus, a University technology club.",
-      it: "Sono una delle fondatrici e la Team Lead di Nexus, un club tecnologico universitario.",
+      en: "I am a founder and the roject Manager of Nexus, a University technology club.",
+      it: "Sono una delle fondatrici e la roject Manager di Nexus, un club tecnologico universitario.",
       de: "Ich bin Mitgründerin und Teamleiterin von Nexus, einem Technologie-Club an der Universität."
     }
   },
